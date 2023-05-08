@@ -10,5 +10,12 @@ public class workingwith_2darray {
         board[1][0] = '0';
         board[2][0] = '0';
         System.out.println(Arrays.deepToString(board));
+        char[][] boardtwo = new char[][]{
+                new char[]{'0','-','-'},
+                new char[]{'0','-','-'},
+                new char[]{'0','-','-'}
+        };
+        System.out.println(Arrays.deepToString(boardtwo));
+
     }
 }
