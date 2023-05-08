@@ -11,7 +11,6 @@ public class arrays {
         colors[3] = "yellow";
         colors[4] = "pink";
         System.out.println(Arrays.toString(colors));
-    for (int i = 0; i < colors.length; i++)
-        System.out.println(colors[i]);
+        for (String color : colors) System.out.println(color);
     }
 }
